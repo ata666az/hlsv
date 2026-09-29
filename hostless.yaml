@@ -1,0 +1,14 @@
+build:
+  system: auto
+  command: "npm install"
+
+start_command: "npm start"
+
+health_check:
+  type: http
+  http_path: "/health"
+  interval_in_seconds: 30
+
+scaling:
+  min_replicas: 1
+  max_replicas: 1

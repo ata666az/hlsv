@@ -1,0 +1,11 @@
+{
+  "name": "hostless-http-forwarder",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
